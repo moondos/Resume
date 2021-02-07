@@ -1,0 +1,110 @@
+/*@font-face {
+    src: url('fonts/OpenSans-Regular.ttf');
+    font-family: 'OpenSans Regular';
+} */
+
+h1, h2 {
+    color:white;
+    font-family: serif;
+    margin: 10px 0 10px 0;
+}
+
+.title {
+    margin-top: 0;
+    font-size: 2em;
+}
+
+.subtitle {
+    border-left: 5px solid white;
+    padding-left: 10px;
+    margin-top: 30px;
+
+}
+
+body {
+    color: white;
+    background-color: black;
+    margin:0px;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;  
+    display: flex; 
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+/* @media screen and (min-width: 500px) {
+    body {
+        background: blueviolet;
+    }
+} */
+
+.about-text {
+    
+}
+
+img {
+    border-radius: 20%;
+}
+
+.header {
+    padding: 20px;
+    border-bottom: 1px solid rgb(224, 222, 222);
+    text-align: center;
+    flex: 0;
+}
+
+header {
+    display: block;
+}
+
+header a {
+    border: solid 1px white;
+    padding: 5px;
+    margin: 4px;
+    background-color: black;
+    color: white;
+  }
+
+header a:hover {
+    color: black;
+    transition: 1s;
+}
+
+footer {
+    display: block;
+}
+
+.footer {
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+p > a {
+    color:white;
+}
+
+.main {
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    flex-grow: 1;
+    padding-top: 30px;
+}
+
+.aside {
+    width: 300px;
+    flex: 0;
+}
+
+aside {
+    display: block;
+}
+
+.main-section {
+    flex-grow: 1;
+    padding-left: 50px;
+}
+
+section {
+    display: block;
+}
